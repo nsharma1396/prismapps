@@ -1,0 +1,26 @@
+.container {
+	display : flex;
+	align-items: center;
+	background-color: rgb(55, 103, 206);
+	height: 60px;
+	width: 100%;
+	}
+
+img,p {
+	padding-left: 24px;
+}
+
+p {
+	font-size:'20px';
+	color:'white';
+}
+
+
+.logo {
+  animation: spin infinite 5s linear;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

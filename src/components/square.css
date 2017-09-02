@@ -1,0 +1,56 @@
+
+.body {
+  background-color: #eee;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bod {
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.al {
+  margin: 100px;
+}
+
+.square {
+  border-style: solid;
+  border-color: #aabdaa;
+  border-radius: 2px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 250px;
+  width: 150px;
+  background-color: white;
+  box-shadow: 5px 5px 5px #888888
+}
+
+.rect {
+  margin: 0px;
+  color: white;
+  width: 100%;
+  height: 65px;
+  background-color: rgb(55, 103, 206);
+}
+
+.logo {
+  animation: spin 3s linear infinite alternate;
+}
+
+@keyframes spin {
+  0% { transform: rotateX(0deg); }
+  75% { transform: rotateX(180deg); }
+  100% {transform: rotateX(180deg);}
+}
